@@ -236,3 +236,137 @@ header .container {
 
     color: var(--color-gray);
 }
+footer {
+    background-color: var(--color-dark);
+    padding: 100px 255px;
+}
+
+.about-us ul {
+    display: flex;
+    gap: 51.5px;
+
+}
+
+.about-us ul li {
+    list-style: none;
+    font-family: Futura PT;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    color: var(--color-white);
+    margin-bottom: 100px;
+}
+
+.medium {
+    display: flex;
+    gap: 445px;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.medium .medium-logos {
+    display: flex;
+    width: width: 20px;
+    height: 16px;
+    gap: 60px;
+}
+
+.medium .medium-right {
+    display: flex;
+    gap: 100px;
+}
+
+.medium .medium-right .left {
+    font-family: Futura PT;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.9px;
+    text-align: left;
+    color: var(--color-green-light);
+}
+
+.medium .medium-right .left p {
+    font-family: Futura PT;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 39px;
+    text-align: right;
+    color: var(--color-white);
+}
+
+.medium .medium-right .right {
+    font-family: Futura PT;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.9px;
+    text-align: left;
+    color: var(--color-green-light);
+}
+
+.medium .medium-right .right p {
+    font-family: Futura PT;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 39px;
+    text-align: right;
+    color: var(--color-white);
+}
+
+.family {
+    display: flex;
+    gap: 108px;
+    align-items: center;
+}
+
+.family .end {
+    display: flex;
+    gap: 44px;
+    align-items: center;
+}
+
+.family .art-home-200 {
+    font-family: Futura PT;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    color: var(--color-white);
+}
+
+.family .policy {
+    font-family: Futura PT;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    color: var(--color-green-light);
+}
+
+.family .footer-btn {
+    padding: 20px 40px;
+    font-family: Futura PT;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24.3px;
+    text-align: left;
+    border: none;
+    border-radius: 31px;
+    color: var(--color-white);
+    background: linear-gradient(90deg, #FDC4A6 0%, #A9796B 100%);
+}
+
+.family .end p {
+    font-family: Futura PT;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    color: var(--color-green-light);
+}
+
+.family .end img {
+    width: 84px;
+    height: 41.66px;
+
+}
